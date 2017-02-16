@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26127.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo2_Licao1", "Modulo2_Licao1.csproj", "{899C6CD5-F177-4E9B-A246-49FCDC014EF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo2_Licao1", "Projetos\Modulo 2\Licao_1\Modulo2_Licao1.csproj", "{899C6CD5-F177-4E9B-A246-49FCDC014EF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo2_Licao2", "..\Licao2\Modulo2_Licao2.csproj", "{51024475-67D3-44F3-9D8B-FB6433150A14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo2_Licao2", "Projetos\Modulo 2\Licao_2\Modulo2_Licao2.csproj", "{51024475-67D3-44F3-9D8B-FB6433150A14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
