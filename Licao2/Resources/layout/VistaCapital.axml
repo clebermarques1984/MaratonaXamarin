@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:paddingLeft="16dp"
+								android:paddingRight="16dp"
+								android:background="@drawable/fundo_android"
+		>
+	<TextView
+			android:text="Património"
+			android:layout_width="300dp"
+			android:layout_height="80dp"
+			android:gravity="center"
+			android:textSize="20dp"/>
+	<TextView
+			android:text="Capital México"
+			android:layout_width="130dp"
+			android:layout_height="50dp"
+			android:layout_marginTop="100dp"
+			android:layout_marginRight="80dp"
+			android:gravity="center"
+			android:textSize="20dp"/>
+	<EditText
+			android:text="0"
+			android:numeric="integer"
+			android:inputType="number"
+			android:id="@+id/txtCapitalM"
+			android:layout_width="130dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="100dp"
+			android:layout_alignParentRight="true"
+			android:gravity="center" />
+	<TextView
+			android:text="Capital Colombia"
+			android:layout_width="130dp"
+			android:layout_height="50dp"
+			android:layout_marginTop="200dp"
+			android:layout_marginRight="80dp"
+			android:gravity="center"
+			android:textSize="20dp"/>
+	<EditText
+			android:text="0"
+			android:numeric="integer"
+			android:inputType="number"
+			android:id="@+id/txtCapitalC"
+			android:layout_width="130dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="200dp"
+			android:layout_alignParentRight="true"
+			android:gravity="center" />
+	<Button
+			android:text="Sair"
+			android:id="@+id/btnSair"
+			android:background="@color/custom_red"
+			android:layout_width="130dp"
+			android:layout_height="60dp"
+			android:layout_marginTop="300dp"
+			android:layout_alignRight="@id/txtCapitalC"
+			android:gravity="center" />
+	<ImageView
+			android:id="@+id/imageMex"
+			android:layout_width="130dp"
+			android:layout_height="75dp"			
+			android:layout_marginTop="30dp"
+			android:layout_below="@id/btnSair"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/mexico"
+			/>
+	<ImageView
+			android:id="@+id/imageCol"
+			android:layout_width="130dp"
+			android:layout_height="75dp"
+			android:layout_alignTop="@id/imageMex"
+			android:layout_alignRight="@id/btnSair"
+			android:src="@drawable/colombia"
+			/>	
+</RelativeLayout>

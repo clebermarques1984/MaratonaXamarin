@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Modulo2_Licao1
 {
-	[Activity(Label = "Modulo2_Licao1", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity(Label = "App_M2_1", MainLauncher = true, Icon = "@drawable/android_icon")]
 	public class MainActivity : Activity
 	{
 		protected override void OnCreate(Bundle bundle)
@@ -30,7 +30,6 @@ namespace Modulo2_Licao1
 					dolares = double.Parse(txtDolares.Text);
 					reais = dolares * 4;
 					txtReais.Text = reais.ToString();
-					throw new System.Exception("Teste de erro");
 				}
 				catch (System.Exception ex)
 				{

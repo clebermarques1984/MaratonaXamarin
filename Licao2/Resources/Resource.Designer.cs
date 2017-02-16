@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Modulo2_Licao1.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Licao2.Resource", IsApplication=true)]
 
-namespace Modulo2_Licao1
+namespace Licao2
 {
 	
 	
@@ -41,6 +41,25 @@ namespace Modulo2_Licao1
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int custom_red = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int layout_background = 2130968577;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -48,43 +67,19 @@ namespace Modulo2_Licao1
 			public const int android_icon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int fundo = 2130837505;
+			public const int colombia = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int fundo_agua = 2130837506;
+			public const int fundo_android = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int fundo_capitao_america = 2130837507;
+			public const int fundo_cinza = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int fundo_claro = 2130837508;
+			public const int Icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int fundo_crepusculo = 2130837509;
-			
-			// aapt resource value: 0x7f020006
-			public const int fundo_estrelas = 2130837510;
-			
-			// aapt resource value: 0x7f020007
-			public const int fundo_gato = 2130837511;
-			
-			// aapt resource value: 0x7f020008
-			public const int fundo_nuvens = 2130837512;
-			
-			// aapt resource value: 0x7f020009
-			public const int fundo_por_do_sol = 2130837513;
-			
-			// aapt resource value: 0x7f02000a
-			public const int fundo_roxo = 2130837514;
-			
-			// aapt resource value: 0x7f02000b
-			public const int fundo_vermelho = 2130837515;
-			
-			// aapt resource value: 0x7f02000c
-			public const int Icon = 2130837516;
-			
-			// aapt resource value: 0x7f02000d
-			public const int xamarin_icon = 2130837517;
+			public const int mexico = 2130837509;
 			
 			static Drawable()
 			{
@@ -99,14 +94,35 @@ namespace Modulo2_Licao1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int btnConverter = 2131034114;
+			// aapt resource value: 0x7f060004
+			public const int btnCalcular = 2131099652;
 			
-			// aapt resource value: 0x7f050000
-			public const int txtdolares = 2131034112;
+			// aapt resource value: 0x7f060007
+			public const int btnSair = 2131099655;
 			
-			// aapt resource value: 0x7f050001
-			public const int txtreais = 2131034113;
+			// aapt resource value: 0x7f060009
+			public const int imageCol = 2131099657;
+			
+			// aapt resource value: 0x7f060008
+			public const int imageMex = 2131099656;
+			
+			// aapt resource value: 0x7f060006
+			public const int txtCapitalC = 2131099654;
+			
+			// aapt resource value: 0x7f060005
+			public const int txtCapitalM = 2131099653;
+			
+			// aapt resource value: 0x7f060003
+			public const int txtDespesaC = 2131099651;
+			
+			// aapt resource value: 0x7f060001
+			public const int txtDespesaM = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int txtReceitaC = 2131099650;
+			
+			// aapt resource value: 0x7f060000
+			public const int txtReceitaM = 2131099648;
 			
 			static Id()
 			{
@@ -124,6 +140,9 @@ namespace Modulo2_Licao1
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int VistaCapital = 2130903041;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -137,11 +156,11 @@ namespace Modulo2_Licao1
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{
