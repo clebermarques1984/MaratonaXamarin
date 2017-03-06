@@ -7,7 +7,7 @@ namespace Cats.Models
 {
 	public class Repository
 	{
-		//To use use a web api
+		//To use consume data from web api
 		//public async Task<ObservableRangeCollection<Cat>> GetCats()
 		//{
 		//	ObservableRangeCollection<Cat> Cats;
