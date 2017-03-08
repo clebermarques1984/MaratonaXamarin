@@ -19,7 +19,7 @@ namespace Cats
 		{
 			// Handle when your app starts
 			MobileCenter.Start("android=17e8ed2d-61fa-407c-8e58-99e50e650e5e;" +
-							   "ios={Your iOS App secret here}",
+							   "ios=492c51ef-2049-455f-bc82-1f4fe6b0cba5;",
 							   typeof(Analytics), typeof(Crashes));
 		}
 
