@@ -22,10 +22,9 @@ namespace Cats.ViewModels
 			get { return selectedCat; }
 			set
 			{
-				if (SetProperty(ref selectedCat, value))
-				{
-					ShowDetail();
-				};
+				selectedCat = value;
+				OnPropertyChanged();
+				ShowDetail();
 			}
 		}
 
@@ -58,7 +57,7 @@ namespace Cats.ViewModels
 			if (selectedCat != null)
 			{
 				await navigationService.NavigateToDetail(selectedCat);
-				selectedCat = null;
+				SelectedCat = null;
 			}
 		}
 
@@ -70,10 +69,10 @@ namespace Cats.ViewModels
 				try
 				{
 					IsBusy = true;
-					var Repository = new Repository();
-					var Items = await Repository.GetCats();
+					var repository = new Repository();
+					var items = await repository.GetCats();
 					Cats.Clear();
-					Cats.AddRange(Items);
+					Cats.AddRange(items);
 				}
 				catch (Exception ex)
 				{
