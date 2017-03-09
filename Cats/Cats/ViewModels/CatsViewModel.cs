@@ -22,9 +22,10 @@ namespace Cats.ViewModels
 			get { return selectedCat; }
 			set
 			{
-				selectedCat = value;
-				OnPropertyChanged();
-				ShowDetail();
+				if (SetProperty(ref selectedCat, value))
+				{
+					ShowDetail();
+				};
 			}
 		}
 
